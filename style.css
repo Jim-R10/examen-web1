@@ -101,6 +101,9 @@ nav {
     color: #f4b400;
     transform: scale(1.05);
 }
+.navigation li a:hover{
+    color: #f4b400;
+}
 
 
 /* section HERO */
@@ -450,6 +453,11 @@ html{
     height: 90vh;
 }
 
+.debouches_right{
+    background-color: #f6f7fb;
+
+}
+
 .debouches_content{
     position: absolute;
     margin-top: -80vh;
@@ -491,12 +499,11 @@ html{
 
 .debouches_deco img{
     width: 20%;
-    
+    z-index: 2;
 }
 
 .debouches_deco{
-    position: relative;
-    z-index: -5;
+    z-index: 0;
     margin-top: -20vh;
     margin-left: 60vw;
 }
@@ -588,7 +595,7 @@ html{
     content: "";
     position: absolute;
     inset: 0;
-    border: 2px dotted #041c4b;
+    border: 3px dashed #041c4b;
     border-radius: 20px;
     opacity: 0;
     pointer-events: none;
@@ -1042,6 +1049,12 @@ html{
 .footer_bottom i{
     border: 2px solid black;
     border-radius: 50%;
+    font-size: 9px;
+    padding-block: 1px;
+    padding-inline: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
