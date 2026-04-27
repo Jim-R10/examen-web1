@@ -985,6 +985,10 @@ html{
     font-size: 25px;
     color: #f4b400; 
 }
+.footer_right a{
+    text-decoration: none;
+    color: black;
+}
 .icones{
     display: flex;
     align-items: center;
@@ -1025,6 +1029,10 @@ html{
     position: absolute;
     right: 0;
     margin-top: -10vh;
+    text-decoration: none;
+}
+.footer_arrow a{
+    text-decoration: none;
 }
 
 .footer_arrow a i{
@@ -1108,7 +1116,7 @@ html{
     }
 
     .hero {
-        height: 90vh;
+        height: 65vh;
         padding: 40px 20px;
         text-align: center;
     }
@@ -1242,7 +1250,7 @@ html{
 
     .card-team {
         width: 90%;
-        height: 30vh;
+        height: 33vh;
         max-width: 300px;
         margin-top: 0;
     }
@@ -1616,10 +1624,16 @@ html{
         flex-direction: row;
         gap: 5px;
         margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
     }
 
     .footer_bottom p {
         font-size: 14px;
+        display: block;
+        
     }
 }
 
